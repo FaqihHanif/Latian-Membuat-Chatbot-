@@ -4,7 +4,7 @@ import pandas as pd
 import requests
 from io import StringIO
 
-API_KEY = "AIzaSyDIog_S_CDdtzLR8uPlUoSGpZ6MgfthYlQ"
+API_KEY = "Insert your GOOGLE API"
 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel('gemini-3-flash-preview')
